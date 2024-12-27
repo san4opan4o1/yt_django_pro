@@ -17,6 +17,6 @@ def indexItem(request, my_id):
     context = {
         'item':item
     }
-    return render(request, "myapp/details.html", context=context)
+    return render(request, "myapp/detail.html", context=context)
     #return HttpResponse("Your item id is: " + str(id))
 
